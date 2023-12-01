@@ -137,3 +137,91 @@
     }
     
 }
+.sec-scss{
+    padding-top: 5vh;
+    padding-bottom: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    .text-scss{
+        gap: 3vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            width: 35%;
+            text-align: center;
+        }
+        img{
+            width: fit-content;
+        }
+        p{
+            width: 35%;
+            text-align: center;
+        }
+    }
+}
+// sixth section
+.six-sec{
+    height: 80vh;
+    &::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #1a76d1;
+        opacity: .5;
+        z-index: 1;
+    }
+    .six-img{
+        padding: 5vh 5vw;
+        width: 100%;
+        background-image: url(../../../../public/img/call-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        background-attachment: fixed;
+    }
+    .six-info{
+        z-index: 2;
+    }
+}
+
+.six-hov1 {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(#504e4e, #504e4e);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .3s, color .3s;
+}
+
+.six-hov1:hover {
+    background-size: 100% 100%;
+    color: white !important;
+    border: white solid 1.5px;
+}
+.six-hov2 {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient($blue, $blue);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .3s, color .3s;
+}
+
+.six-hov2:hover {
+    background-size: 100% 100%;
+    color: white !important;
+    border: white solid 1.5px;
+}
