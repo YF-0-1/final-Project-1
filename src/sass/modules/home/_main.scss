@@ -265,3 +265,29 @@
         }
     }
 }
+// eleven section 
+.eleven-sec{
+    height: 36.5vh;
+    &::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: $blue;
+        opacity: .5;
+        z-index: 1;
+    }
+    .sec-img{
+        padding: 5vh 5vw;
+        width: 100%;
+        background-image: url(../../../../public/img/client-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .hola{
+        z-index: 2;
+    }
+}
