@@ -50,3 +50,36 @@ footer {
         }
     }
 }
+@media (max-width:430px) {
+    .first-footer{
+        div{
+            width: 96% !important;
+            text-align: center;
+            h5{
+                width: 100% !important;
+            }
+            p{
+                width: 100% !important;
+            }
+        }
+        .yf{
+            width: 96% !important;
+            input{
+                width:100% !important;
+            }
+            button{
+                width:100% !important;
+            }
+        }
+    }
+    .sec-footer{
+        .foot{
+            width: 96%;
+            div{
+                div{
+                    width: 96% !important;
+                }
+            }
+        }
+    }
+}
