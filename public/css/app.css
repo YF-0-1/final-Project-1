@@ -12993,6 +12993,13 @@ footer div p {
     top: 10vh;
   }
 }
+.oool {
+  position: fixed;
+  top: 20%;
+  right: 0%;
+  z-index: 6;
+}
+
 * {
   margin: 0;
   padding: 0;
