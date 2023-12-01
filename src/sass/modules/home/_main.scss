@@ -245,3 +245,23 @@
         }
     }
 }
+// then 
+.card-then{
+    div {
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0vw;
+            bottom: 0;
+            width: 0;
+            background: $blue;
+            height: 4px;
+            border-radius: 4px;
+            transition: ease-in-out 0.3s;
+        }
+        &:hover::after {
+            width: 100%;
+        }
+    }
+}
