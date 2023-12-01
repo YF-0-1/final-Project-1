@@ -118,3 +118,22 @@
         }
     }
 }
+.hereweare{
+    h2{
+        position: relative;
+        &::after {
+            content: "";
+            position: absolute;
+            left: 4vw;
+            bottom: -20%;
+            height: 4px;
+            width: 10%;
+            background: $blue;
+            transition: 0.3s;
+        }
+        &:hover::after{
+            width: 35%;
+        }
+    }
+    
+}
