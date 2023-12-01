@@ -83,3 +83,19 @@ footer {
         }
     }
 }
+
+
+.popup {
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    z-index: 1;
+    a{
+        height: 100px;
+        width: 100px;
+        bottom: 40px;
+        i {
+            font-size: 50px;
+        }
+    }
+}
