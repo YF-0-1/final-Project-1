@@ -68,3 +68,88 @@
     background-size: 100% 100%;
     color: #fff;
 }
+
+// carousel
+
+.first-car{
+    background-image: url(../../../../public/img/slider.jpg) !important;
+    padding-top: 30px;
+    background-size: cover !important;
+    height: 90vh !important;
+    background-position: center;
+}
+.sec-car{
+    background-image: url(../../../../public/img/slider2.jpg) !important;
+    padding-top: 30px;
+    background-size: cover !important;
+    height: 90vh !important;
+    background-position: center;
+}
+.third-car{
+    background-image: url(../../../../public/img/slider3.jpg) !important;
+    padding-top: 30px;
+    background-size: cover !important;
+    height: 90vh !important;
+    background-position: center;
+}
+.button_car1{
+    background-color: $zra9;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    top: 50%;
+    left: 1%;
+    width: 3vw;
+    height: 6vh;
+}
+.button_car2{
+    background-color: $zra9;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    top: 50%;
+    right: 3%;
+    width: 3vw;
+    height: 6vh;
+}
+.text_carousel1{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}   
+.button_carousel{
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+@media (max-width:430px) {
+    nav {
+        .navigation {
+            width: 100% !important;
+        }
+    }
+    .text_carousel1{
+        display: flex;
+        padding: 50px;
+        width: 100vw;
+        height: 10vh;
+    }
+.back-img1{
+    background-image: url(../../../../public/img/slider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+    .h1{
+        width: 50%;
+        height: 50%;
+    }
+    }
+}
