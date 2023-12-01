@@ -1,0 +1,78 @@
+.form-maps{
+    border: 1px solid rgba(0, 0, 0, 0.237);
+    padding: 2rem;
+}
+.inputform{
+    width: 20px;
+    height: 20px;
+}
+
+.contact-withus{
+    position: relative;
+}
+.contact-withus::before{
+    content: '';
+    position: absolute;
+    border-bottom: 4px solid rgb(40, 117, 249);
+    height: 4px;
+    width: 70px;
+    top: 38px;
+    left:0;
+    transition: ease-in-out 0.5s;
+}
+.contact-withus:hover::before{
+    width: 200px;
+}
+
+.hello{
+    height: 45vh;
+    &::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #1a76d1;
+        opacity: .5;
+        z-index: 1;
+    }
+    .sec4-img{
+        padding: 5vh 5vw;
+        width: 100%;
+        background-image: url(../../../../public/img/blockqoute-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .hola{
+        z-index: 2;
+    }
+}
+
+@media (max-width : 430px) {
+    .hello{
+        height: 120vh;
+        .sec4-img{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;   
+            object-fit: cover; 
+        }
+        .hola{
+            top: 10vh;
+        }
+    }
+    .sectioncotactus iframe{
+        width: 400px;
+        height: 400px;
+        }
+    
+    .form-maps input , textarea  {
+        width: 350px;
+    }
+    .form-maps .btnformmaps{
+        width: 90px;
+        background-color: aqua;
+    }
+}
