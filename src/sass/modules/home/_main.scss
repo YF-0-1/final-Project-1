@@ -79,3 +79,42 @@
         }
     }
 }
+
+.hello{
+    height: 45vh;
+    &::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: #1a76d1;
+        opacity: .5;
+        z-index: 1;
+    }
+    .sec4-img{
+        padding: 5vh 5vw;
+        width: 100%;
+        background-image: url(../../../../public/img/blockqoute-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    }
+    .hola{
+        z-index: 2;
+        div{
+            div{
+                .salam{
+                    &:hover{
+                        background-color: white;
+                        transition: 0.5s;
+                        i{
+                            color: $blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
