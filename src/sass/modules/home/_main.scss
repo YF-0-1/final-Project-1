@@ -291,3 +291,20 @@
         z-index: 2;
     }
 }
+
+// twelve
+.boton-1 {
+    position: relative;
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(#363636, #363636);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+}
+
+.boton-1:hover {
+    background-size: 100% 100%;
+    color: #fff;
+}
