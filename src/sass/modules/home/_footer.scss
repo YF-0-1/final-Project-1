@@ -35,3 +35,18 @@ footer {
 .foot{
     width: 80%;
 }
+
+
+.foot-hov{
+    div{
+        .fb,.pt{
+            padding: 8px 11px !important;
+        }
+        i{
+            &:hover{
+                background-color: white !important;
+                color: $zra9 !important;
+            }
+        }
+    }
+}
